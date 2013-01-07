@@ -67,9 +67,9 @@ case $1 in
         exit 0 ;;
 esac
 
-cached=$(mktemp --tmpdir=.)
-installed=$(mktemp --tmpdir=.)
-removed=$(mktemp --tmpdir=.)
+cached=$(mktemp)
+installed=$(mktemp)
+removed=$(mktemp)
 
 ls -1 /var/cache/pacman/pkg/ | sed 's/^\(.*\)-[^-]*-[^-]*-[^-]*$/\1/' | sort -u > $cached
 pacman -Qq > $installed
