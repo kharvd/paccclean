@@ -1,12 +1,22 @@
+About paccclean
+=====================
+
 paccclean (Pacman Cache Cleaner) utility removes cached versions of packages that
 have already been uninstalled
 
-usage: paccclean <operation>
+Usage
+=====================
 
-  Operations:
+    usage: paccclean <operation>
+
+    Operations:
+  
     -s, --show      show packages to be removed.
     -r, --remove    remove packages.
     -h, --help      show this message.
+    
+License information
+=====================
 
 Copyright (c) 2013        Valery Kharitonov <kharvd@gmail.com>
 
@@ -27,5 +37,4 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
 DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
-
 
