@@ -10,10 +10,9 @@ Usage
     usage: paccclean <operation>
 
     Operations:
-  
-    -s, --show      show packages to be removed.
-    -r, --remove    remove packages.
-    -h, --help      show this message.
+        -s, --show      show packages to be removed.
+        -r, --remove    remove packages.
+        -h, --help      show this message.
     
 License information
 =====================
